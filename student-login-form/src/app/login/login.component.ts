@@ -13,7 +13,7 @@ export class LoginComponent {
   submitForm() {
     console.log('Username:', this.username);
     console.log('Password:', this.password);
-    if (this.username === 'siri' && this.password === 'srividya_1418') {
+    if (this.username === 'student' && this.password === 'password') {
       this.loggedIn = true;
       console.log('Login successful');
       window.location.href = 'https://qualitythought.in';
